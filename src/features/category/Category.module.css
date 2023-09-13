@@ -1,0 +1,248 @@
+.img1 {
+    margin-top: 10%;
+}
+
+.images1 {
+    display: flex;
+    margin-left: 48px;
+    width: 76%;
+    gap: 22px;
+    gap: -67px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.buttons {
+    width: 12%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sum {
+    color: gray;
+    background: white;
+    font-size: 1.5vw;
+    top: 17%;
+    height: 80px;
+}
+
+.plusIcon {
+    width: 50px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+.maleFemale {
+    display: flex;
+}
+
+.img {
+    width: 140px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.img p {
+    position: absolute;
+    width: 137.8px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #2E2E2E;
+    top: 20%;
+}
+
+.femaleBtn,
+.maleBtn {
+    border: none;
+    background-color: gainsboro;
+    box-sizing: border-box;
+    width: 50px;
+    height: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+}
+
+.femaleBtn img,
+.maleBtn img {
+    background-color: gainsboro;
+}
+
+.modalTitle {
+    height: 38px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #2E2E2E;
+    margin-top: 6%;
+}
+
+.modalInput label {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #4F4F4F;
+    width: 267px;
+    margin: auto;
+}
+
+.rectangle {
+    width: 261px;
+    height: 145px;
+    background: #e2dbdb;
+    border-radius: 5px;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.modalBackground {
+    background: #353131;
+    opacity: 62%;
+}
+
+.addBtn {
+    width: 259px;
+    background: #0008C1;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 8%;
+    margin-top: 7%;
+    height: 32px;
+}
+
+.rectangle img {
+    margin-top: 4%;
+}
+
+.rectangle p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 70px;
+    background: #e2dbdb;
+
+}
+
+.rectangle div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 2%;
+    height: 68px;
+}
+
+.modalStyle {
+    background: white;
+}
+
+.closeBtn {
+    color: white;
+}
+
+.titleImg {
+    box-sizing: border-box;
+    width: 140px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.changeTitleImg {
+    width: 140px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 2px solid #939393;
+
+}
+
+.titleImg p,
+.changeTitleImg p {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #2E2E2E;
+    margin-top: 0%;
+    cursor: pointer;
+}
+
+.titleImg img {
+    margin-top: -9%;
+}
+
+.modalFemaleBtn,
+.modalMaleBtn {
+    width: 125px;
+    height: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+}
+
+.modalFemaleBtn p,
+.modalMaleBtn p {
+    width: 60px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #4F4F4F;
+}
+
+.modalInput {
+    border-top: aqua;
+    margin-left: 7%;
+}
+
+.maleSvg {
+    fill: aquamarine;
+}
+
+.deleteDiv {
+    height: 29px;
+    width: 64px;
+    background-color: rgb(184 173 173);
+    border-radius: 3px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 73px;
+}
